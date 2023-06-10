@@ -1,0 +1,28 @@
+.nav-container{
+    display: contents!important;
+    
+}
+
+#logo svg{
+    vertical-align: top;
+}
+.navbar{
+    padding-right: 3%;
+    padding-left: 3%;
+    background: rgb(239, 239, 239);
+}
+
+.navbar-nav .nav-link{
+    font-weight: 600;
+    color:#3e2e2e;
+    font-size: 20px;
+}
+
+.active-link,.navbar-nav .nav-link:hover  {
+    background-color: #dd8434;
+    color:white!important;
+}
+.justify-content-center {
+    justify-content: right!important;
+}
+  
