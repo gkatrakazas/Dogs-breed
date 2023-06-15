@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #container_home {
   display: flex;
   flex-direction: column;
@@ -13,6 +14,21 @@
   justify-content: center;
   border-radius: 12px;
   margin: 1rem;
+=======
+.container_home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  display:flex;
+  background-image: url('../media/background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.column-content {
+  text-align: center;
+>>>>>>> 4b6fb3348df725babbf89526366f56d0c0c6496b
 }
 
 .team-container {
@@ -25,4 +41,33 @@
   width: 300px;
   margin: 20px;
   text-align: center;
+}
+
+
+.box {
+  display: flex;
+  /* height: 88vh; */
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin: 1rem;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.team-column {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+
+.team-column img{
+  width: 100px;
 }
