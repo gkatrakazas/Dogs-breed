@@ -1,8 +1,9 @@
-import logo from './logo.svg';
 
 import './css/App.css';
 
 import Home from "./pages/Home";
+import Charactertraits from "./pages/character_traits";
+
 // import Datavisualization from "./pages/Datavisualization";
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
@@ -19,6 +20,7 @@ function App() {
               <Navigationbar/>
               <Routes>
                 <Route exact path="/" element={<Home />} />
+                <Route exact path="/visualizations/character_traits" element={<Charactertraits />} />
               </Routes>
             </>
 

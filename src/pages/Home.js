@@ -14,21 +14,26 @@ function Home() {
       </div>
 
       <div className="team-container">
-        <div className="team-column">
-          <img src={img} alt="Team Member 1" />
-          <h3>Team Member 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit risus et massa elementum, eget tristique urna bibendum.</p>
-        </div>
-        <div className="team-column">
-          <img src={img} alt="Team Member 2" />
-          <h3>Team Member 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit risus et massa elementum, eget tristique urna bibendum.</p>
-        </div>
-        <div className="team-column">
-          <img src={img} alt="Team Member 3" />
-          <h3>Team Member 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit risus et massa elementum, eget tristique urna bibendum.</p>
-        </div>
+        <h4 className='subtitle'>Our Team</h4>
+
+        <div className='team-content'>
+          <div className="team-column">
+            <img src={img} alt="Team Member 1" />
+            <h3>Team Member 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit risus et massa elementum, eget tristique urna bibendum.</p>
+          </div>
+          <div className="team-column">
+            <img src={img} alt="Team Member 2" />
+            <h3>Team Member 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit risus et massa elementum, eget tristique urna bibendum.</p>
+          </div>
+          <div className="team-column">
+            <img src={img} alt="Team Member 3" />
+            <h3>Team Member 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit risus et massa elementum, eget tristique urna bibendum.</p>
+          </div>
+          </div>
+
       </div>
     </div>
   );
