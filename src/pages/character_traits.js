@@ -5,17 +5,17 @@ import img from '../media/user.png';
 function character_traits() {
   return (
 
-    <div>
-      <div className='container_home'>
+    <div id="character_traits">
+      <div className='container_character'>
         <div className="column box">
           <div className="column-content">
-            <p id='main-title'>Longevity Paws: Visualizing Dog Breed Lifespans</p>
+            <p id='main-title'>Exploring Character Traits in Dog Breeds</p>
           </div>
         </div>
       </div>
 
       <div className=" container team-container">
-        <h4 className='subtitle'>Our Team</h4>
+        <h4 className='subtitle'>This dashboard presents</h4>
 
         <div className='team-content'>
         <p>

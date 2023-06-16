@@ -1,8 +1,8 @@
-.container_home{
+#character_traits .container_character{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 90vh;
+  height: 85vh;
   display:flex;
   background-image: url('../media/background2.jpg');
   background-size: cover;
@@ -10,7 +10,7 @@
 
 }
 
-.column-content {
+#character_traits .column-content {
   padding-top: 10%;
   text-align: center;
   font-size: 55px;
@@ -18,26 +18,26 @@
   color: #3e2e2e;
 }
 
-.team-container{
+#character_traits .team-container{
   text-align: center;
   padding: 5%;
 
 }
-.team-content {
+#character_traits .team-content {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
   }
 
-.team-column {
+#character_traits .team-column {
   width: 300px;
   margin: 20px;
   text-align: center;
 }
 
 
-.box {
+#character_traits .box {
   display: flex;
   /* height: 88vh; */
   width: 100%;
@@ -49,14 +49,14 @@
 
 
 
-.team-column {
+#character_traits .team-column {
   width: 300px;
   margin: 20px;
   text-align: center;
 }
 
 
-.team-column img{
+#character_traits .team-column img{
   width: 100px;
 }
 

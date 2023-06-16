@@ -1,8 +1,8 @@
-.container_home{
+#home .container_home{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 90vh;
+  height: 85vh;
   display:flex;
   background-image: url('../media/background.png');
   background-size: cover;
@@ -10,34 +10,34 @@
 
 }
 
-.column-content {
+#home .column-content {
   padding-top: 8%;
   text-align: center;
-  font-size: 55px;
+  font-size: 40px;
   font-weight: 800;
   color: #3e2e2e;
 }
 
-.team-container{
+#home .team-container{
   text-align: center;
   padding: 5%;
 
 }
-.team-content {
+#home .team-content {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
   }
 
-.team-column {
+#home .team-column {
   width: 300px;
   margin: 20px;
   text-align: center;
 }
 
 
-.box {
+#home .box {
   display: flex;
   width: 100%;
   text-align: center;
@@ -47,13 +47,70 @@
 }
 
 
-.team-column img{
+#home.team-column img{
   width: 100px;
 }
 
 
-.subtitle{
+#home .subtitle{
   font-size: 40px;
   font-weight: 700;
   color: #3e2e2e;
+}
+
+
+
+/* aims */
+
+#home .aims-container{
+  text-align: center;
+  padding: 5%;
+
+}
+#home .aims-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
+    
+  }
+
+  #home .img-aims-column {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+
+#home .text-aims-column {
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 60%;
+}
+
+
+#home .target-container{
+  text-align: center;
+  padding: 5%;
+
+}
+#home .target-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: justify;
+  
+}
+
+#home .img-target-column {
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+#home .text-target-column {
+padding-left: 5%;
+padding-right: 5%;
+width: 60%;
 }

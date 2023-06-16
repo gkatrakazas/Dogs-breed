@@ -10,6 +10,7 @@
     padding-right: 3%;
     padding-left: 3%;
     background: rgb(239, 239, 239);
+    height: 15vh!important;
 }
 
 .navbar-nav .nav-link{
