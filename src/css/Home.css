@@ -1,3 +1,4 @@
+
 #home .container_home{
   display: flex;
   flex-direction: column;
@@ -18,10 +19,33 @@
   color: #3e2e2e;
 }
 
-#home .team-container{
+#home .intro-container{
   text-align: center;
   padding: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
 
+#home .team-container {
+  text-align: center;
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative; /* Added */
+}
+
+#home .team-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url('../media/dogs.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7; /* Adjust the opacity value as per your preference */
+  z-index: -1;
 }
 #home .team-content {
     display: flex;
@@ -34,6 +58,8 @@
   width: 300px;
   margin: 20px;
   text-align: center;
+  padding: 2%;
+  background-color: white;
 }
 
 
@@ -53,6 +79,7 @@
 
 
 #home .subtitle{
+  margin-bottom: 20px;
   font-size: 40px;
   font-weight: 700;
   color: #3e2e2e;
@@ -65,6 +92,9 @@
 #home .aims-container{
   text-align: center;
   padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #d882363b;
 
 }
 #home .aims-content {
@@ -92,6 +122,8 @@
 #home .target-container{
   text-align: center;
   padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 
 }
 #home .target-content {

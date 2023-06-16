@@ -15,12 +15,12 @@ function Home() {
         </div>
       </div>
 
-      <div className="container team-container">
+      <div className="intro-container">
         <h4 className='subtitle'>Our Visualizations</h4>
         <p>This visualization project explores the relationship between characteristics, health problems, and life expectancy of breed dogs. By analyzing data on breed-specific traits, common health issues, and average lifespan, the project aims to uncover insights into how these factors interact and impact the longevity of different dog breeds. So the dog lovers from this visualization are able to know how long its breed lives and why!</p>
       </div>
 
-      <div className="container aims-container">
+      <div className="aims-container">
 
         <div className='aims-content'>
           <div className="img-aims-column">
@@ -35,7 +35,7 @@ function Home() {
         </div>
       </div>
       
-      <div className="container target-container">
+      <div className="target-container">
 
         <div className='target-content'>
           <div className="text-target-column">
@@ -49,7 +49,7 @@ function Home() {
         </div>
       </div> 
 
-      <div className="container team-container">
+      <div className="team-container">
         <h4 className='subtitle'>Our Team</h4>
 
         <div className='team-content'>
