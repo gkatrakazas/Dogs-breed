@@ -21,11 +21,8 @@ const NavigationBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="container-fluid d-flex justify-content-center mr-auto">
             <Nav.Link href="/" id={'logo'} className={`${location.pathname === '/personal_page' ? 'active-link' : ''}`}><AiOutlineHome size={30} /></Nav.Link>
-            <Nav.Link href="/data_visualization" className={`${location.pathname === '/personal_page/data_visualization' ? 'active-link' : ''}`}>Data visualization</Nav.Link>
-            <NavDropdown title="Visualizations" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/visualizations/character_traits">Character Traits</NavDropdown.Item>
-              <NavDropdown.Item href="/visualizations/health_problems">Health Problems</NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="/visualization" className={`${location.pathname === '/personal_page/data_visualization' ? 'active-link' : ''}`}>Data visualization</Nav.Link>
+
           </Nav>
 
           {/* <Nav className="ml-auto">
