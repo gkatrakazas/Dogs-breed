@@ -2,7 +2,7 @@
 import './css/App.css';
 
 import Home from "./pages/Home";
-import Charactertraits from "./pages/character_traits";
+import Visualization from "./pages/visualization";
 
 // import Datavisualization from "./pages/Datavisualization";
 
@@ -20,7 +20,8 @@ function App() {
               <Navigationbar/>
               <Routes>
                 <Route exact path="/" element={<Home />} />
-                <Route exact path="/visualizations/character_traits" element={<Charactertraits />} />
+                <Route exact path="/out-team" element={<OurTeam />} />
+                <Route exact path="/visualization" element={<Visualization />} />
               </Routes>
             </>
 

@@ -1,11 +1,11 @@
 import React from 'react';
-import "../css/Charactertraits.css";
+import "../css/ourteam.css";
 import img from '../media/user.png';
 
-function character_traits() {
+function ourteam() {
   return (
 
-    <div id="character_traits">
+    <div id="ourteam">
       <div className='container_character'>
         <div className="column box">
           <div className="column-content">
@@ -28,4 +28,4 @@ function character_traits() {
   );
 }
 
-export default character_traits;
+export default ourteam;
