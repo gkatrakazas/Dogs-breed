@@ -11,6 +11,8 @@
     padding-left: 3%;
     background: rgb(239, 239, 239);
     height: 15vh!important;
+    margin-bottom: -15vh;
+    background-color: transparent;
 }
 
 .navbar-nav .nav-link{
