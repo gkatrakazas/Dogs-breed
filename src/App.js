@@ -3,7 +3,7 @@ import './css/App.css';
 
 import Home from "./pages/Home";
 import Visualization from "./pages/visualization";
-
+import Team from "./pages/Team";
 // import Datavisualization from "./pages/Datavisualization";
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
@@ -20,7 +20,7 @@ function App() {
               <Navigationbar/>
               <Routes>
                 <Route exact path="/" element={<Home />} />
-                <Route exact path="/out-team" element={<OurTeam />} />
+                <Route exact path="/team" element={<Team />} />
                 <Route exact path="/visualization" element={<Visualization />} />
               </Routes>
             </>

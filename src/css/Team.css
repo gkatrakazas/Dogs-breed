@@ -1,0 +1,64 @@
+
+#team .container_team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    display:flex;
+    background-image: url('../media/team_background.png');
+    background-size: cover;
+    background-position: center;
+  
+  }
+  
+  #team .column-content {
+    padding: 5vh;
+    padding-top: 20vh;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    color: #3e2e2e;
+  }
+  
+  
+  #team .intro-container{
+    text-align: center;
+    padding: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  
+  #team .team-container {
+    text-align: center;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative; /* Added */
+  }
+  
+
+
+  
+  #team .box {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 1rem;
+  }
+  
+  
+  #team .aims_target_container .content .column  img{
+    width: 80px;
+  }
+  
+  
+  #team .subtitle{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #3e2e2e;
+  }
+  
+  
