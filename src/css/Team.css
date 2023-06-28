@@ -20,20 +20,13 @@
     color: #3e2e2e;
   }
   
-  
-  #team .intro-container{
-    text-align: center;
-    padding: 5%;
-    padding-left: 15%;
-    padding-right: 15%;
-  }
+
   
   #team .team-container {
     text-align: center;
     padding: 5%;
     padding-left: 10%;
     padding-right: 10%;
-    position: relative; /* Added */
   }
   
 
@@ -47,18 +40,31 @@
     border-radius: 12px;
     margin: 1rem;
   }
-  
-  
-  #team .aims_target_container .content .column  img{
-    width: 80px;
-  }
-  
-  
+   
   #team .subtitle{
     margin-bottom: 20px;
     font-size: 40px;
     font-weight: 700;
     color: #3e2e2e;
   }
+
+
+
+  #team .team-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+    }
   
+  #team .team-column {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    padding: 2%;
+    background-color: white;
+  }
   
+  #team .team-column  img{
+    width: 100px;
+  }

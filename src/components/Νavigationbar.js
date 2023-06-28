@@ -2,13 +2,12 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../media/dogs_logo.png'
 import "../css/Navigationbar.css";
 import { useLocation } from 'react-router-dom';
 
 import { AiOutlineHome } from 'react-icons/ai'
-// import { FaLinkedin, FaGithub } from 'react-icons/fa'
+import {FaGithub } from 'react-icons/fa'
 
 const NavigationBar = () => {
   const location = useLocation();
@@ -26,10 +25,9 @@ const NavigationBar = () => {
 
           </Nav>
 
-          {/* <Nav className="ml-auto">
-          <Nav.Link href="https://www.linkedin.com/in/gkatrakazas/" target='_black'><FaLinkedin size={30} /></Nav.Link>
+          <Nav className="ml-auto">
           <Nav.Link href="https://github.com/gregory1996" target='_black'><FaGithub size={30} /></Nav.Link>
-          </Nav> */}
+          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
