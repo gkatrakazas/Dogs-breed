@@ -21,9 +21,9 @@ const NavigationBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="container-fluid d-flex justify-content-center mr-auto">
-            <Nav.Link href="/" id={'logo'} className={`${location.pathname === '/personal_page' ? 'active-link' : ''}`}><AiOutlineHome size={25} /> Home</Nav.Link>
-            <Nav.Link href="/team" className={`${location.pathname === '/personal_page/data_visualization' ? 'active-link' : ''}`}><AiOutlineTeam size={25} /> Our Team</Nav.Link>
-            <Nav.Link href="/visualization" className={`${location.pathname === '/personal_page/data_visualization' ? 'active-link' : ''}`}><LuLayoutDashboard size={25}/> Visualization</Nav.Link>
+            <Nav.Link href="/dogs_breed/" id={'logo'} className={`${location.pathname === '/personal_page' ? 'active-link' : ''}`}><AiOutlineHome size={25} /> Home</Nav.Link>
+            <Nav.Link href="/dogs_breed/team" className={`${location.pathname === '/personal_page/data_visualization' ? 'active-link' : ''}`}><AiOutlineTeam size={25} /> Our Team</Nav.Link>
+            <Nav.Link href="/dogs_breed/visualization" className={`${location.pathname === '/personal_page/data_visualization' ? 'active-link' : ''}`}><LuLayoutDashboard size={25}/> Visualization</Nav.Link>
 
           </Nav>
 

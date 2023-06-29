@@ -20,7 +20,7 @@ function App() {
               <Routes>
                 <Route
                   exact
-                  path="/"
+                  path="/dogs_breed/"
                   element={
                     <CSSTransition classNames="fade" timeout={300}>
                       <Home />
@@ -29,7 +29,7 @@ function App() {
                 />
                 <Route
                   exact
-                  path="/team"
+                  path="/dogs_breed/team"
                   element={
                     <CSSTransition classNames="fade" timeout={300}>
                       <Team />
@@ -38,7 +38,7 @@ function App() {
                 />
                 <Route
                   exact
-                  path="/visualization"
+                  path="/dogs_breed/visualization"
                   element={
                     <CSSTransition classNames="fade" timeout={300}>
                       <Visualization />
