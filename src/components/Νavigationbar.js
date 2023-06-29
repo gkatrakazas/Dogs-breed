@@ -28,7 +28,7 @@ const NavigationBar = () => {
           </Nav>
 
           <Nav className="ml-auto">
-          <Nav.Link href="https://github.com/gregory1996" target='_black'><FaGithub size={30} /></Nav.Link>
+          <Nav.Link href="https://github.com/gregory1996/dogs_breed" target='_black'><FaGithub size={30} /></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

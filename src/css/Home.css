@@ -28,34 +28,12 @@
   padding-right: 15%;
 }
 
-#home .team-container {
-  text-align: center;
-  padding: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
-  position: relative; /* Added */
-}
-
-#home .team-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-image: url('../media/dogs.jpg');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.7; /* Adjust the opacity value as per your preference */
-  /* z-index: -1; */
-}
-
 
 #home .aims_target_container {
   text-align: center;
   padding: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
   position: relative;
 }
 
@@ -121,8 +99,8 @@
 #home .challenge_container{
   text-align: center;
   padding: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
 
 }
 #home .challenge_content{
@@ -152,8 +130,8 @@ width: 80%;
 #home .data_container{
   text-align: center;
   padding: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
 
 }
 #home .data_content{
@@ -182,8 +160,8 @@ width: 80%;
 #home .meet-team-container {
   text-align: center;
   padding: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
   position: relative; /* Added */
 }
 
@@ -229,8 +207,8 @@ width: 80%;
 #home .visualization-container {
   text-align: center;
   padding: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
   position: relative; /* Added */
 }
 
