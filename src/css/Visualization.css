@@ -43,3 +43,7 @@
   font-weight: 700;
   color: #3e2e2e;
 }
+
+.intro-container p{
+  text-align: justify;
+}
