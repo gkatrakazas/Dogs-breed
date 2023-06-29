@@ -29,7 +29,9 @@
     padding-right: 10%;
   }
   
-
+  #team .team-container p{
+    text-align: justify;
+  }
 
   
   #team .box {
