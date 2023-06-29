@@ -9,7 +9,7 @@ function visualization() {
       <div className='container_visualization'>
         <div className="column box">
           <div className="column-content">
-            <p id='main-title'>Exploring Character Traits in Dog Breeds</p>
+            <p id='main-title'>Unveiling Insights with Data</p>
           </div>
         </div>
       </div>

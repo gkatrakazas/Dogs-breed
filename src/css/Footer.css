@@ -1,0 +1,9 @@
+footer{
+    min-height:5vh;
+    background-color: #3e2e2e;
+    color:white;
+}
+
+.footer_content{
+    padding: 10px!important;
+}
