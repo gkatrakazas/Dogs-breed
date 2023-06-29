@@ -58,7 +58,9 @@ function Home() {
       <div className="meet-team-container">
         <h4 className='subtitle'>Meet our team</h4>
         <p>Passionate about dogs and driven by data visualization, our exceptional team explores breed characteristics, health problems, and life expectancy. With expertise, creativity, and a love for our furry friends, we are dedicated to unraveling insights and making a positive impact. Discover the faces behind our project on our team page and join us as we delve into the fascinating world of dogs.</p>
-        <button className='classic_button'>Read More</button>
+        <a href='/team'>
+        <button className='classic_button' >Read More</button>
+        </a>
       </div>
 
       <div className="data_container">
@@ -77,10 +79,12 @@ This dataset includes information on breed characteristics, such as height, char
         </div>
       </div>
 
-      <div className="meet-team-container">
+      <div className="visualization-container">
         <h4 className='subtitle'>Our visualization</h4>
         <p>Welcome to our visualization page, where data comes to life. Through captivating visual representations, we bring together breed characteristics, health problems, and life expectancy in an engaging and informative way. Dive into our interactive visualizations to uncover patterns, correlations, and insights that will deepen your understanding of the fascinating world of dogs. Whether you're a dog enthusiast, veterinarian, breeder, or researcher, our visualizations provide a comprehensive view of how these factors interplay, empowering you to make data-driven decisions and contribute to the well-being of our furry friends.</p>
-        <button className='classic_button'>Read More</button>
+        <a href='/visualization'>
+        <button className='classic_button' >Read More</button>
+        </a>      
       </div>
     </div>
   );

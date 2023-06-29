@@ -178,14 +178,28 @@ width: 80%;
 }
 
 
-#home .meet-team-container{
-  background-color: rgb(230, 230, 230);
+
+#home .meet-team-container {
   text-align: center;
   padding: 5%;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative; /* Added */
 }
 
+#home .meet-team-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url('../media/background_3.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2; /* Adjust the opacity value as per your preference */
+  z-index: -1;
+}
 .classic_button{
   background-color: #d88236;
   color:white;
@@ -210,4 +224,26 @@ width: 80%;
   padding-left: 16px;
   box-shadow: 2px 4px 4px 0px gray;
 
+}
+
+#home .visualization-container {
+  text-align: center;
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative; /* Added */
+}
+
+#home .visualization-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url('../media/background_4.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2; /* Adjust the opacity value as per your preference */
+  z-index: -1;
 }

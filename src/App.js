@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navigationbar from './components/Νavigationbar';
 import Footer from './components/Footer'; // Import the Footer component
 import "bootstrap/dist/css/bootstrap.min.css";
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 function App() {
   return (
@@ -15,17 +16,44 @@ function App() {
         <div className="personal_app">
           <>
             <Navigationbar />
-            <Routes>
-              <Route exact path="/" element={<Home />} />
-              <Route exact path="/team" element={<Team />} />
-              <Route exact path="/visualization" element={<Visualization />} />
-            </Routes>
-            <Footer /> {/* Include the Footer component */}
+            <TransitionGroup>
+              <Routes>
+                <Route
+                  exact
+                  path="/"
+                  element={
+                    <CSSTransition classNames="fade" timeout={300}>
+                      <Home />
+                    </CSSTransition>
+                  }
+                />
+                <Route
+                  exact
+                  path="/team"
+                  element={
+                    <CSSTransition classNames="fade" timeout={300}>
+                      <Team />
+                    </CSSTransition>
+                  }
+                />
+                <Route
+                  exact
+                  path="/visualization"
+                  element={
+                    <CSSTransition classNames="fade" timeout={300}>
+                      <Visualization />
+                    </CSSTransition>
+                  }
+                />
+              </Routes>
+            </TransitionGroup>
+            <Footer />
           </>
         </div>
       </BrowserRouter>
     </div>
   );
 }
+
 
 export default App;
