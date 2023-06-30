@@ -3,6 +3,8 @@ import './css/App.css';
 import Home from "./pages/Home";
 import Visualization from "./pages/visualization";
 import Team from "./pages/Team";
+import Dataset from "./pages/Dataset";
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navigationbar from './components/Νavigationbar';
 import Footer from './components/Footer'; // Import the Footer component
@@ -33,6 +35,15 @@ function App() {
                   element={
                     <CSSTransition classNames="fade" timeout={300}>
                       <Team />
+                    </CSSTransition>
+                  }
+                />
+                  <Route
+                  exact
+                  path="/dogs_breed/dataset"
+                  element={
+                    <CSSTransition classNames="fade" timeout={300}>
+                      <Dataset />
                     </CSSTransition>
                   }
                 />

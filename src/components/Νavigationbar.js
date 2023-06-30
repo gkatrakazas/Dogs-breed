@@ -23,6 +23,7 @@ const NavigationBar = () => {
           <Nav className="container-fluid d-flex justify-content-center mr-auto">
             <Nav.Link href="/dogs_breed/" id={'logo'} className={`${location.pathname === '/personal_page' ? 'active-link' : ''}`}><AiOutlineHome size={25} /> Home</Nav.Link>
             <Nav.Link href="/dogs_breed/team" className={`${location.pathname === '/personal_page/data_visualization' ? 'active-link' : ''}`}><AiOutlineTeam size={25} /> Our Team</Nav.Link>
+            <Nav.Link href="/dogs_breed/dataset" className={`${location.pathname === '/personal_page/dataset' ? 'active-link' : ''}`}><AiOutlineTeam size={25} /> Dataset</Nav.Link>
             <Nav.Link href="/dogs_breed/visualization" className={`${location.pathname === '/personal_page/data_visualization' ? 'active-link' : ''}`}><LuLayoutDashboard size={25}/> Visualization</Nav.Link>
 
           </Nav>
