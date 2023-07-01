@@ -30,12 +30,16 @@ function Home() {
         <div className="column">
           <img width='200' src={img_aims} alt="aims of the project" />
             <h3>Aims of the project</h3>
-            <p>The project aims to investigate the relationship between characteristics and health problems of breed dogs and their life expectancy. It seeks to uncover patterns, correlations, and insights that can help understand how these factors interact and influence the longevity of different dog breeds.</p>
+            <p>The project aims to investigate the relationship between characteristics and health problems of breed dogs and their life expectancy. 
+              It seeks to uncover patterns, correlations, and insights that can help understand how these factors interact and influence the longevity of 
+              different dog breeds.</p>
           </div>
           <div className="column">
           <img width='200' src={img_target} alt="aims of the project" />
             <h3>Target audience</h3>
-            <p>The target audience for this project includes dog enthusiasts, veterinarians, breeders, researchers in the field of animal health, and anyone interested in understanding the factors that impact the life expectancy of breed dogs. It caters to individuals with a general interest in dog breeds as well as professionals seeking data-driven insights.</p>
+            <p>The target audience for this project includes dog enthusiasts, veterinarians, breeders, researchers in the field of animal health, 
+              and anyone interested in understanding the factors that impact the life expectancy of breed dogs. It caters to individuals with a general 
+              interest in dog breeds as well as professionals seeking data-driven insights.</p>
           </div>
         </div>
 
@@ -63,7 +67,7 @@ function Home() {
         <h4 className='subtitle'>Meet our team</h4>
         <p>Passionate about dogs and driven by data visualization, our exceptional team explores breed characteristics, health problems, and life expectancy. With expertise, creativity, and a love for our furry friends, we are dedicated to unraveling insights and making a positive impact. Discover the faces behind our project on our team page and join us as we delve into the fascinating world of dogs.</p>
         <a href='/team'>
-        <button className='classic_button' >Read More</button>
+        <button className='classic_button' >Read More for the Team</button>
         </a>
       </div>
 
@@ -75,10 +79,14 @@ function Home() {
           </div>
           <div className="text_data_column">
             <h4 className='subtitle'>The dataset considered</h4>
-            <p>The project utilizes one dataset to achieve its goals. The dataset is carefully selected from Kaggle (Dog breeds | Kaggle) and refers to specific topics for dogs such as fur color, eyes color or country of origin of each dog breed.
-This dataset includes information on breed characteristics, such as height, character traits, for example kindness, strength, confidence, and trainability. Additionally, it gives information on breed-specific more severe health problems like cancer, pancreatitis or more common health problems such as dental problems, ear infections, skin allergies, breath problems etc.  Also average lifespan for each breed is also considered. 
-</p>
-          </div>
+            <p>The project utilizes one dataset to achieve its goals. The dataset is carefully selected from Kaggle and refers to specific topics for dogs such as fur color, eyes color or country of origin of each dog breed.
+              This dataset includes information on breed characteristics, such as height, character traits, for example kindness, strength, confidence, and trainability. Additionally, it gives information on breed-specific more severe health problems 
+              like cancer, pancreatitis or more common health problems such as dental problems, ear infections, skin allergies, breath problems etc.  Also average lifespan for each breed is also considered. 
+            </p>
+            <a href='/dataset'>
+              <button className='classic_button' >Read More for Dataset</button>
+            </a>             
+        </div>
 
         </div>
       </div>
@@ -87,7 +95,7 @@ This dataset includes information on breed characteristics, such as height, char
         <h4 className='subtitle'>Our visualization</h4>
         <p>Welcome to our visualization page, where data comes to life. Through captivating visual representations, we bring together breed characteristics, health problems, and life expectancy in an engaging and informative way. Dive into our interactive visualizations to uncover patterns, correlations, and insights that will deepen your understanding of the fascinating world of dogs. Whether you're a dog enthusiast, veterinarian, breeder, or researcher, our visualizations provide a comprehensive view of how these factors interplay, empowering you to make data-driven decisions and contribute to the well-being of our furry friends.</p>
         <a href='/visualization'>
-        <button className='classic_button' >Read More</button>
+        <button className='classic_button' >Read More the visualization</button>
         </a>      
       </div>
     </div>

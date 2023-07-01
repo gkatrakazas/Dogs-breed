@@ -55,12 +55,11 @@
   #team .team-content {
       display: flex;
       flex-direction: row;
-      align-items: center;
       justify-content: space-evenly;
     }
   
   #team .team-column {
-    width: 300px;
+    width: 30%;
     margin: 20px;
     text-align: center;
     padding: 2%;
@@ -68,5 +67,7 @@
   }
   
   #team .team-column  img{
-    width: 100px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #3e2e2e;
   }

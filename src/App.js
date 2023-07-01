@@ -1,15 +1,20 @@
-import './css/App.css';
+
+import Navigationbar from './components/Νavigationbar';
+import Footer from './components/Footer'; // Import the Footer component
 
 import Home from "./pages/Home";
 import Visualization from "./pages/visualization";
 import Team from "./pages/Team";
 import Dataset from "./pages/Dataset";
+import References from "./pages/References";
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navigationbar from './components/Νavigationbar';
-import Footer from './components/Footer'; // Import the Footer component
-import "bootstrap/dist/css/bootstrap.min.css";
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import './css/App.css';
+
 
 function App() {
   return (
@@ -22,7 +27,7 @@ function App() {
               <Routes>
                 <Route
                   exact
-                  path="/dogs_breed/"
+                  path="/dogs_breed"
                   element={
                     <CSSTransition classNames="fade" timeout={300}>
                       <Home />
@@ -56,7 +61,18 @@ function App() {
                     </CSSTransition>
                   }
                 />
-              </Routes>
+            
+            <Route
+                  exact
+                  path="/dogs_breed/references"
+                  element={
+                    <CSSTransition classNames="fade" timeout={300}>
+                      <References />
+                    </CSSTransition>
+                  }
+
+                />
+                              </Routes>
             </TransitionGroup>
             <Footer />
           </>
