@@ -11,16 +11,27 @@ function ourdataset() {
         
         <div className="column box">
           <div className="column-content">
-            <p id='main-title'>Uniting Passion, Expertise, and Dedication</p>
+            <p id='main-title'>Unveiling Insights from the Dog Breeds Dataset</p>
           </div>
         </div>
       </div>
 
       <div className="dataset-container">
-        <h4 className='subtitle'>Meet Our dataset</h4>
+        <h4 className='subtitle'>The dataset</h4>
         <p>
-Welcome to our dataset page, where you get to meet the brilliant minds behind our project. We are a dedicated group of dog enthusiasts, data visualization experts, and researchers united by a common goal: to explore the interplay of characteristics, health problems, and life expectancy in breed dogs. Each dataset member brings a unique set of skills and expertise, from meticulous data analysis to captivating visual design. Together, we work collaboratively, fueled by our passion for dogs and the desire to make a difference. Get to know us better as we share our stories, experiences, and the driving force behind our commitment to uncovering valuable insights. Join us on this exciting journey and discover the power of our collective knowledge and love for our canine companions.</p>
-
+        The dataset encompasses a diverse collection of dog breeds, each accompanied by
+         their respective attributes. It provides valuable information on various aspects, 
+         including the breed's country of origin, fur color options, height range, color of eyes, 
+         longevity in years, character traits, and common health problems. This comprehensive 
+         dataset allows for a broad exploration of the interplay between breed characteristics, 
+         health issues, and life expectancy. From loyal and intelligent breeds to energetic and 
+         good-natured ones, the dataset offers insights into the diverse traits exhibited by different breeds. 
+         Additionally, it highlights the common health problems faced by various breeds, ranging from hip 
+         dysplasia and obesity to ear infections and respiratory issues. By delving into this dataset, 
+         researchers, dog enthusiasts, and professionals in the field can gain a deeper understanding 
+         of the intricacies surrounding breed-specific attributes and health concerns, ultimately 
+         fostering informed decision-making and better care for our beloved canine companions. 
+        To access the complete dataset, you can visit the Kaggle link provided here.</p>
         <div className='dataset-content'>
           <div className="dataset-column">
             <img src={img} alt="Dimitrios Orinos" />

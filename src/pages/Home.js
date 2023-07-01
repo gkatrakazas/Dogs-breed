@@ -11,14 +11,18 @@ function Home() {
       <div className='container_home'>
         <div className="column box">
           <div className="column-content">
-            <p id='main-title'>Exploring the Interplay: Characteristics, Health Problems, and Life Expectancy of Breed Dogs</p>
+            <p id='main-title'>Exploring the Characteristics, Health Problems, and Life Expectancy of Breed Dogs</p>
           </div>
         </div>
       </div>
 
       <div className="intro-container">
         <h4 className='subtitle'>Introduction</h4>
-        <p>This visualization project explores the relationship between characteristics, health problems, and life expectancy of breed dogs. By analyzing data on breed-specific traits, common health issues, and average lifespan, the project aims to uncover insights into how these factors interact and impact the longevity of different dog breeds. So the dog lovers from this visualization are able to know how long its breed lives and why!</p>
+        <p>This visualization project explores the relationship between characteristics, 
+          health problems, and life expectancy of breed dogs. By analyzing data on breed-specific traits, 
+          common health issues, and average lifespan, the project aims to uncover insights into how these 
+          factors interact and impact the longevity of different dog breeds. So the dog lovers from this 
+          visualization are able to know how long its breed lives and why!</p>
       </div>
 
       <div className="aims_target_container">
