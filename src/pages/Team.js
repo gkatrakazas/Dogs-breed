@@ -2,7 +2,7 @@ import React from 'react';
 import "../css/Team.css";
 import img_grigoris from '../media/grigoris.png';
 import img_dimitris from '../media/dimitris.jpg';
-import img from '../media/user.png';
+import img_evi from '../media/evi.jpg';
 
 function ourteam() {
   return (
@@ -29,9 +29,10 @@ Welcome to our team page, where you get to meet the brilliant minds behind our p
             <p>Dimitris, a 26-year-old individual, possesses a profound passion for physics and programming, with a particular emphasis on Python. Observing football or basketball matches and engaging in football video games such as FIFA serve as his preferred means of relaxation.</p>
           </div>
           <div className="team-column">
-            <img src={img} alt="EvangeliaTsiropoulou" />
+            <img src={img_evi} alt="EvangeliaTsiropoulou" />
             <h3>Evangelia <br></br> Tsiropoulou</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam suscipit risus et massa elementum, eget tristique urna bibendum.</p>
+            <p>A passionate Linguist and Language Teacher, always being keen on gaining new experience by applying my skills in different domains as well as developing new ones. 
+Always socially aware, favoring of using Natural Language Processing applications in Education. Envisaging a future, where the power of Technology will serve the power of Education.</p>
           </div>
           <div className="team-column">
             <img src={img_grigoris} alt="Grigoris Katrakazas" />

@@ -11,8 +11,8 @@ function TableauVisualization() {
 
   const initViz = (ref, url) => {
     const viz = new tableau.Viz(ref.current, url, {
-      width: '200vh',
-      height: '100vh',
+      width:'100vh',
+      height: '90vh',
     });
 
     return () => {

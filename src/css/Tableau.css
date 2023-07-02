@@ -1,5 +1,4 @@
 .tableau-container {
-    margin-left: 15%;
     /* display: flex; */
     flex-wrap: wrap;
     justify-content: center;
@@ -15,7 +14,10 @@
   }
   
   .tableau-viz {
-    width: 100%;
+    width: min-content;
+    margin: auto;
+    border: 2px solid #3e2e2e;
+    margin-bottom: 5%;
   }
 
   

@@ -11,7 +11,7 @@ function Home() {
       <div className='container_home'>
         <div className="column box">
           <div className="column-content">
-            <p id='main-title'>Exploring the Characteristics, Health Problems, and Life Expectancy of Breed Dogs</p>
+            <p id='main-title'>How Personality, Health Problems and Height affect dog's Longevity</p>
           </div>
         </div>
       </div>

@@ -2,8 +2,11 @@ import React from 'react';
 import "../css/Visualization.css";
 import TableauVisualization from '../components/TableauVisualization';
 
+function visualization() {
   return (
+
     <div id="visualization">
+
       <div className='container_visualization'>
         <div className="column box">
           <div className="column-content">
@@ -19,6 +22,6 @@ import TableauVisualization from '../components/TableauVisualization';
         <TableauVisualization />
     </div>
   );
-};
+}
 
-export default Visualization;
+export default visualization;
