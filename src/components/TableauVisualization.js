@@ -11,8 +11,8 @@ function TableauVisualization() {
 
   const initViz = (ref, url) => {
     const viz = new tableau.Viz(ref.current, url, {
-      width: '100%',
-      height: '150vh',
+      width: '200vh',
+      height: '100vh',
     });
 
     return () => {
@@ -31,9 +31,17 @@ function TableauVisualization() {
   }, []);
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column',flexWrap:'nowrap' }}>
-      <div ref={viz1Ref} style={{ textAlign: 'center' }} />
-      <div ref={viz2Ref} style={{ textAlign: 'center' }} />
+<div className="tableau-container">
+      <div className="row">
+        <div className="col">
+          <div ref={viz1Ref} className="tableau-viz" />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          <div ref={viz2Ref} className="tableau-viz" />
+        </div>
+      </div>
     </div>
   );
 }
