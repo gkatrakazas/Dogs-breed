@@ -66,7 +66,7 @@ function Home() {
       <div className="meet-team-container">
         <h4 className='subtitle'>Meet our team</h4>
         <p>Passionate about dogs and driven by data visualization, our exceptional team explores breed characteristics, health problems, and life expectancy. With expertise, creativity, and a love for our furry friends, we are dedicated to unraveling insights and making a positive impact. Discover the faces behind our project on our team page and join us as we delve into the fascinating world of dogs.</p>
-        <a href='/team'>
+        <a href='/dogs_breed/team'>
         <button className='classic_button' >Read More for the Team</button>
         </a>
       </div>
@@ -83,7 +83,7 @@ function Home() {
               This dataset includes information on breed characteristics, such as height, character traits, for example kindness, strength, confidence, and trainability. Additionally, it gives information on breed-specific more severe health problems 
               like cancer, pancreatitis or more common health problems such as dental problems, ear infections, skin allergies, breath problems etc.  Also average lifespan for each breed is also considered. 
             </p>
-            <a href='/dataset'>
+            <a href='/dogs_breed/dataset'>
               <button className='classic_button' >Read More for Dataset</button>
             </a>             
         </div>
@@ -94,7 +94,7 @@ function Home() {
       <div className="visualization-container">
         <h4 className='subtitle'>Our visualization</h4>
         <p>Welcome to our visualization page, where data comes to life. Through captivating visual representations, we bring together breed characteristics, health problems, and life expectancy in an engaging and informative way. Dive into our interactive visualizations to uncover patterns, correlations, and insights that will deepen your understanding of the fascinating world of dogs. Whether you're a dog enthusiast, veterinarian, breeder, or researcher, our visualizations provide a comprehensive view of how these factors interplay, empowering you to make data-driven decisions and contribute to the well-being of our furry friends.</p>
-        <a href='/visualization'>
+        <a href='/dogs_breed/visualization'>
         <button className='classic_button' >Read More the visualization</button>
         </a>      
       </div>
