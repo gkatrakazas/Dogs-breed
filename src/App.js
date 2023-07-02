@@ -23,42 +23,33 @@ function App() {
         <div className="personal_app">
           <>
             <Navigationbar />
-            <TransitionGroup>
               <Routes>
                 <Route
                   exact
                   path="/dogs_breed"
                   element={
-                    <CSSTransition classNames="fade" timeout={300}>
                       <Home />
-                    </CSSTransition>
                   }
                 />
                 <Route
                   exact
                   path="/dogs_breed/team"
                   element={
-                    <CSSTransition classNames="fade" timeout={300}>
                       <Team />
-                    </CSSTransition>
                   }
                 />
                   <Route
                   exact
                   path="/dogs_breed/dataset"
                   element={
-                    <CSSTransition classNames="fade" timeout={300}>
                       <Dataset />
-                    </CSSTransition>
                   }
                 />
                 <Route
                   exact
                   path="/dogs_breed/visualization"
                   element={
-                    <CSSTransition classNames="fade" timeout={300}>
                       <Visualization />
-                    </CSSTransition>
                   }
                 />
             
@@ -66,14 +57,11 @@ function App() {
                   exact
                   path="/dogs_breed/references"
                   element={
-                    <CSSTransition classNames="fade" timeout={300}>
                       <References />
-                    </CSSTransition>
                   }
 
                 />
                               </Routes>
-            </TransitionGroup>
             <Footer />
           </>
         </div>

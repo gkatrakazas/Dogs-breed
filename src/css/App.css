@@ -55,4 +55,6 @@
     transition: opacity 300ms;
   }
   
-  
+  #viz-client-container{
+    margin:auto!important;
+  }

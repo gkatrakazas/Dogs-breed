@@ -1,0 +1,24 @@
+.tableau-container {
+    margin-left: 15%;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .row {
+    width: 100%;
+  }
+  
+  .col {
+    flex-basis: 100%;
+  }
+  
+  .tableau-viz {
+    width: 100%;
+  }
+
+  
+  #viz-client-container{
+    margin:auto!important;
+  }
