@@ -18,11 +18,9 @@ function Home() {
 
       <div className="intro-container">
         <h4 className='subtitle'>Introduction</h4>
-        <p>This visualization project explores the relationship between characteristics, 
-          health problems, and life expectancy of breed dogs. By analyzing data on breed-specific traits, 
-          common health issues, and average lifespan, the project aims to uncover insights into how these 
-          factors interact and impact the longevity of different dog breeds. So the dog lovers from this 
-          visualization are able to know how long its breed lives and why!</p>
+        <p>
+        This visualization project explores the relationship between characteristics, health problems, height and life expectancy of breed dogs. By analyzing data on breed-specific traits, common health issues average height, and average lifespan, the project aims to uncover insights into how these factors interact and impact the longevity of different dog breeds. So the dog lovers from this visualization are able to know how long its breed lives and why!
+          </p>
       </div>
 
       <div className="aims_target_container">
@@ -30,9 +28,7 @@ function Home() {
         <div className="column">
           <img width='200' src={img_aims} alt="aims of the project" />
             <h3>Aims of the project</h3>
-            <p>The project aims to investigate the relationship between characteristics and health problems of breed dogs and their life expectancy. 
-              It seeks to uncover patterns, correlations, and insights that can help understand how these factors interact and influence the longevity of 
-              different dog breeds.</p>
+            <p>The project aims to investigate the relationship between characteristics, height and health problems of breed dogs and their life expectancy. It seeks to uncover patterns, correlations, and insights that can help understand how these factors interact and influence the longevity of different dog breeds.</p>
           </div>
           <div className="column">
           <img width='200' src={img_target} alt="aims of the project" />
@@ -50,12 +46,7 @@ function Home() {
         <div className='challenge_content'>
           <div className="text_challenge_column">
             <h4 className='subtitle'>Significance of the work and visual data science challenges</h4>
-            <p>This project is significant as it explores the relationship between breed characteristics, health problems, and life expectancy in dogs. The visual data science 
-              challenges involve effectively analyzing multidimensional data, integrating diverse sources, and presenting insights in a visually appealing and understandable way. 
-              The main challenge is dealing with qualitative variables (e.g., health problems and characteristics) and connecting them with quantitative data to create interpretable 
-              visualizations. This requires splitting the traits and health problems into separate columns for each breed, using them as filters to determine maximum life expectancy, 
-              and capturing the breeds with specific health problems. Overcoming these challenges enhances our understanding of these relationships and aids in informed decisions regarding 
-              breed selection and health management.</p>
+            <p>This project is significant as it explores the relationship between breed characteristics, health problems, height and life expectancy in dogs. The visual data science challenges involve effectively analyzing multidimensional data, integrating diverse sources, and presenting insights in a visually appealing and understandable way. The main challenge is dealing with qualitative variables (e.g., health problems and characteristics) and connecting them with quantitative data to create interpretable visualizations, which is something very important and quite difficult. This requires splitting the traits and health problems into separate columns for each breed, using them in order to  determine average life expectancy and secondly average height, and capturing the breeds with specific health problems. Overcoming these challenges enhances our understanding of these relationships and aids in informed decisions regarding breed selection and health management.</p>
           </div>
           <div className="img_challenge_column">
           <img width='200' src={img_challenge} alt="aims of the project" />
