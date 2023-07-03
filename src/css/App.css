@@ -58,3 +58,8 @@
   #viz-client-container{
     margin:auto!important;
   }
+
+
+  *{
+    font-family: "Calibri";
+  }
