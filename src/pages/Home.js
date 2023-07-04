@@ -84,7 +84,7 @@ function Home() {
 
       <div className="visualization-container">
         <h4 className='subtitle'>Our visualization</h4>
-        <p>Welcome to our visualization page, where data comes to life. Through captivating visual representations, we bring together breed characteristics, health problems, and life expectancy in an engaging and informative way. Dive into our interactive visualizations to uncover patterns, correlations, and insights that will deepen your understanding of the fascinating world of dogs. Whether you're a dog enthusiast, veterinarian, breeder, or researcher, our visualizations provide a comprehensive view of how these factors interplay, empowering you to make data-driven decisions and contribute to the well-being of our furry friends.</p>
+        <p>Through captivating visual representations, we bring together breed characteristics, health problems, and life expectancy in an engaging and informative way. Dive into our interactive visualizations to uncover patterns, correlations, and insights that will deepen your understanding of the fascinating world of dogs. Whether you're a dog enthusiast, veterinarian, breeder, or researcher, our visualizations provide a comprehensive view of how these factors interplay, empowering you to make data-driven decisions and contribute to the well-being of our furry friends.</p>
         <a href='/dogs_breed/visualization'>
         <button className='classic_button' >Read More the visualization</button>
         </a>      
