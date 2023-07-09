@@ -40,7 +40,19 @@ function Home() {
         </div>
 
       </div>
-      
+
+      <div className="video_container">
+
+        <div className='video_content'>
+          <div className="text_video_column">
+            <h4 className='subtitle'>Demo Video</h4>
+            <p>In this demo video, we provide a comprehensive overview of the interactive dashboard designed to unlock insights into character traits, height and health problems in dog breeds longevity. Watch as we guide you through the user interface, demonstrating its intuitive design and seamless navigation. Explore how you can interact with the visualizations and filters, allowing you to customize your analysis and gain a deeper understanding of the data.</p>
+          </div>
+          <div className="img_video_column">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/VHKNiadNVM0" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>      
       <div className="challenge_container">
 
         <div className='challenge_content'>
