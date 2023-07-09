@@ -17,7 +17,7 @@ const NavigationBar = () => {
   return (
     <Navbar expand="lg">
       <Container className="nav-container d-flex justify-content-center">
-        <Navbar.Brand href="/personal_page"><img src={logo} width="250" alt="Logo" /></Navbar.Brand>
+        <Navbar.Brand href="/dogs_breed"><img src={logo} width="250" alt="Logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="container-fluid d-flex justify-content-center mr-auto">
