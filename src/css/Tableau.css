@@ -29,3 +29,14 @@
   #viz-client-container{
     margin:auto!important;
   }
+
+
+  .con-col{
+    width: 100%;
+    display: flex;
+  }
+
+  .con-col .coll{
+    padding-right: 2%;
+    width: 50%;
+  }

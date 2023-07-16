@@ -37,30 +37,16 @@ function TableauVisualization() {
           <div className="tableau-viz">
             <div ref={viz1Ref}  />
             <div className='conclutions'>
-                  <br></br>
-            <h5>Conclusions</h5>
-            <ul>
-              <li>
-                <p>
-                  Character traits like gentle, protective or even active, strong and trainable appeared in dog breeds with large average height, but with low average longevity. All these character traits does not appear in dog breeds very frequently.
-                </p>           
-              </li>
-              <li>
-                <p>
-                  Surprisingly it is observe that the only dog breed that has the character trait of braveness, it does not live more and also it has a small height.              
-                </p>           
-              </li>
-              <li>
-                <p>
-                  Playfulness, good relationship with nature, and intelligence appeared very frequently in dog breeds and giving them a high average longevity. Also a dog that is energetive lives for many years, but its average height is not so high.
-                </p>           
-              </li>
-              <li>
-                <p>
-                  Dogs that are characterized by their sensitivity, socialness, curiosity and also activeness have a high average longevity, middle-low average height and there are not so many.
-                </p>           
-              </li>
-            </ul>
+              <h4>Do dog breeds with specific height and specific health problems live longer</h4>
+              <div className='con-col'>
+                <div className='coll'>
+                  <h5> <strong>Height and health problems seem to affect dogs' longevity</strong> </h5>
+                </div>
+                <div className='coll'>
+                  <p>vvf</p>
+                </div>
+
+              </div>
             </div>
 
           </div>
