@@ -14,7 +14,7 @@
   }
   
   .tableau-viz {
-    background-color: rgba(245,245,245,.85);
+    /* background-color: rgba(245,245,245,.85); */
     text-align: justify;
     width: min-content;
     margin: auto;
@@ -37,6 +37,14 @@
   }
 
   .con-col .coll{
-    padding-right: 2%;
-    width: 50%;
+    padding-right: 1%;
+    width: 25%;
   }
+
+  .collr{
+    padding-left: 1%;
+    border-left: 2px solid gray;
+    width: 75%!important;
+
+  }
+
