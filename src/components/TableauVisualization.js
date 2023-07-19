@@ -38,68 +38,96 @@ function TableauVisualization() {
             <div ref={viz1Ref}  />
             <div className='conclutions'>
               <br></br>
-              <h4>Do dog breeds with specific height and specific health problems live longer?</h4>
+              <h4>Do dog breeds with specific <span className='blue'>Height</span> and specific <span className='pink'>health problems</span> live longer?</h4>
               <div className='con-col'>
                 <div className='coll'>
-                  <h5> <strong>Height and health problems seem to affect dogs' longevity.</strong> </h5> 
-                  <p>It seems that taller dog breeds live more years than shorter ones. Additionally, it seems that dog breeds with specific health problems seem to have larger longevity, while there are some health problems that negatively affect dogs' breed longevity. In the above chart, we can also see which health problems are common among all dog breeds (i.e. the bubble’s size depicts the count of breeds). </p>
-                  <p>Below we can see which health problems affect dogs’ longevity the most as well as which ones affect dogs’ longevity the least.</p>
+                  <p> <strong> <span className='blue'>Height</span> and <span className='pink'><span className='pink'>health problems</span></span> seem to affect dogs' <span className='green'><span className='green'>longevity</span></span>.</strong> </p> 
+                  <p>It seems that taller dog breeds live more years than shorter ones. Additionally, it seems that dog breeds with specific <span className='pink'>health problems</span> seem to have larger <span className='green'>longevity</span>, while there are some <span className='pink'>health problems</span> that negatively affect dogs' breed <span className='green'>longevity</span>. In the above chart, we can also see which <span className='pink'>health problems</span> are common among all dog breeds (i.e. the bubble’s size depicts the count of breeds). </p>
+                  <p>Below we can see which <span className='pink'>health problems</span> affect dogs’ <span className='green'>longevity</span> the most as well as which ones affect dogs’ <span className='green'>longevity</span> the least.</p>
                 </div>
                 <div className='coll collr'>
-                <p> <strong>Top common health problems with high average longevity:</strong> </p> 
-                <ul>
-                  <li>Eye problems (79 out of 103 dog breeds - 12,9 years of longevity)</li>
-                  <li>Dental problems (76 out of 103 dog breeds - 13 years of longevity) </li>
-                  <li>Skin allergies (72 out of 103 dog breeds - 12,7 years of longevity)</li>
+                  <p> <strong>Top common <span className='pink'>health problems</span> with high average <span className='green'>longevity</span>:</strong> </p> 
+                  <ul>
+                    <li><strong>Eye problems</strong> (79 out of 103 dog breeds - <strong>12,9</strong> years of <span className='green'>longevity</span>)</li>
+                    <li><strong>Dental problems</strong> (76 out of 103 dog breeds - <strong>13</strong> years of <span className='green'>longevity</span>) </li>
+                    <li><strong>Skin allergies</strong> (72 out of 103 dog breeds - <strong>12,7</strong> years of <span className='green'>longevity</span>)</li>
+                  </ul>
+                  <p>➤ The dog breeds with the above least fatal <span className='pink'>health problems</span> are the <strong>shortest ones</strong>.</p>
 
-                </ul>
-                <p>➤ The dog breeds with the above least fatal health problems are the shortest ones.</p>
+                  <p> <strong>Top common <span className='pink'>health problems</span> with low average <span className='green'>longevity</span>: </strong> </p> 
+                  <ul>
+                    <li><strong>Cancer</strong> ➤ It seems to be the <strong>most common</strong> among these 3 <span className='pink'>health problems</span> (17 out of 103 dog breeds with <strong>10,8</strong> years of average <span className='green'>longevity</span>).</li>
+                    <li><strong>Heart conditions</strong> ➤ 9 out of 103 dog breeds with <strong>9,7</strong> years of average <span className='green'>longevity</span> </li>
+                    <li><strong>Elbow dysplasia</strong> ➤ It seems to be the <strong>most severe</strong> among these 3 <span className='pink'>health problems</span> (<strong>8,8</strong> years of average <span className='green'>longevity</span>), but it is extremely <strong>rare</strong> among dogs breeds (2 out of 103 dog breeds). </li>
 
-                <p> <strong>Top common health problems with low average longevity: </strong> </p> 
-                <ul>
-                  <li>Cancer ➤ It seems to be the most common among these 3 health problems (17 out of 103 dog breeds with 10,8 years of average longevity).</li>
-                  <li>Heart conditions ➤ 9 out of 103 dog breeds with 9,7 years of average longevity </li>
-                  <li>Elbow dysplasia ➤ It seems to be the most severe among these 3 health problems (8,8 years of average longevity), but it is extremely rare among dogs breeds (2 out of 103 dog breeds). </li>
+                  </ul>
 
-                </ul>
-                <p>➤ The dog breeds with the above most fatal health problems are the tallest ones.</p>
-
+                  <p>➤ The dog breeds with the above most fatal <span className='pink'>health problems</span> are the <strong>tallest</strong> ones.</p>
+                  <p><strong>Additional info</strong></p>
+                  <p><strong>Top 3 most severe health problems (regardless of their frequency)</strong></p>
+                  <ul>
+                    <li><strong>Elbow dysplasia</strong> ➤ <strong>8,8</strong> years of average <span className='green'>longevity</span></li>
+                    <li><strong>Heart conditions</strong> ➤ <strong>9,7</strong> years of average <span className='green'>longevity</span></li>
+                    <li><strong>Cancer</strong> ➤ <strong>10,8</strong> years of average <span className='green'>longevity</span></li>
+                  </ul>
+                  <p><strong>Top 3 least severe health problems (regardless of their frequency)</strong></p>
+                  <ul>
+                    <li><strong>Bladder stones</strong> ➤ <strong>13,8</strong> years of average <span className='green'>longevity</span></li>
+                    <li><strong>Intervertebral disc disease - Hereditary myopathy - Epilepsy - Diabetes</strong> ➤ <strong>13,5</strong> years of average <span className='green'>longevity</span></li>
+                    <li><strong>Dental problems</strong> ➤ <strong>13</strong> years of average <span className='green'>longevity</span></li>
+                  </ul>
                 </div>
 
               </div>
               
               <br></br>
               {/* second */}
-              <h4>Do dog breeds with specific height and specific character traits live longer?</h4>
+              <h4><strong>Do dog breeds with specific <span className='blue'>Height</span> and specific <span className='brown'>character traits</span> live longer?</strong></h4>
               <div className='con-col'>
                 <div className='coll'>
-                  <h5> <strong>Height and character traits seem to affect dogs' longevity.</strong> </h5> 
-                  <p>Consequently, some dog breeds with concrete character traits seem to have larger longevity.  On the other hand there are character traits that appear in dogs with lower longevity.  In the above chart, we can also see which character traits are common among all dog breeds (i.e. the bubble’s size depicts the count of breeds). The only difference between the 1st and the 2nd bubble chart is that instead of circles, we have squares.</p>
+                  <p> <strong><span className='blue'>Height</span> and <span className='brown'>character traits</span> seem to affect dogs' <span className='green'>longevity</span>.</strong> </p> 
+                  <p>Consequently, some dog breeds with concrete <span className='brown'>character traits</span> seem to have larger <span className='green'>longevity</span>.  On the other hand there are <span className='brown'>character traits</span> that appear in dogs with lower <span className='green'>longevity</span>.  In the above chart, we can also see which <span className='brown'>character traits</span> are common among all dog breeds (i.e. the bubble’s size depicts the count of breeds). The only difference between the 1st and the 2nd bubble chart is that instead of circles, we have squares.</p>
                 </div>
                 <div className='coll collr'>
-                <p> <strong>Top common character traits with high average longevity:</strong> </p> 
-                <ul>
-                  <li>Intelligent ➤ It seems to be the most common among all character traits (95 out of 103 dog breeds with 12,6 years of average longevity)</li>
-                  <li>Good-Natured ➤ 87 out of 103 dog breeds with 12,6 years of average longevity</li>
-                  <li>Energetic ➤ 81 out of 103 dog breeds with 13 years of average longevity</li>
-                </ul>
+                  <p> <strong>Top common <span className='brown'>character traits</span> with high average <span className='green'>longevity</span>:</strong> </p> 
+                  <ul>
+                    <li><strong>Intelligent</strong> ➤ It seems to be the <strong>most common</strong> among all <span className='brown'>character traits</span> (95 out of 103 dog breeds with 12,6 years of average <span className='green'>longevity</span>)</li>
+                    <li><strong>Good-Natured</strong> ➤ 87 out of 103 dog breeds with <strong>12,6</strong> years of average <span className='green'>longevity</span></li>
+                    <li><strong>Energetic</strong> ➤ 81 out of 103 dog breeds with <strong>13</strong> years of average <span className='green'>longevity</span></li>
+                  </ul>
 
-                <p>Social, charming, sensitive, curious and active ➤ It seems that dog breeds with these character traits live the <strong>longest</strong> (13,5 years), but these traits are extremely <strong>rare</strong> among dog breeds. However, ‘’active’’ dog breeds appear more frequently (4 out of 103 dog breeds). </p>
+                  <p> <strong><span className='brown'>character traits</span> with the highest average <span className='green'>longevity</span> (Top 3 average <span className='green'>longevity</span> values):</strong> </p> 
+                  <ul>
+                    <li><strong>Social - charming - sensitive - curious- active</strong> ➤ <strong>13,5</strong> years of average <span className='green'>longevity</span></li>
+                    <li><strong>Affectionate</strong> ➤ <strong>13,3</strong> years of average <span className='green'>longevity</span></li>
+                    <li><strong>Playful</strong> ➤ <strong>13,2</strong> years of average <span className='green'>longevity</span></li>
+                  </ul>
 
-                <p> <strong>Top common character traits with the lowest average longevity:</strong> </p> 
-                <ul>
-                  <li>Gentle ➤ It seems to be the most common among these character traits (11 out of 103 dog breeds - 9,8 years of longevity)</li>
-                  <li>Protective ➤ 9 out of 103 dog breeds - 10,3 years of longevity</li>
-                  <li>Strong ➤ 2 out of 103 dog breeds - 11,3 years of longevity</li>
-                  <li>Trainable and athletic ➤ 2 out of 103 dog breeds - 11 years of longevity</li>
 
-                </ul>
-                <p>Brave ➤ It appears only <strong>once</strong> among all 103 dog breeds. However, ‘’brave’’ dog breeds are not tall and has the most negative effect on dogs’ breed longevity (9 years of average longevity). </p>
-                <p>➤ The dog breeds with the character traits of social, sensitive, curious, active and brave are the shortest ones.</p>
-                <p>➤ The dog breeds that are gentle and protective are the tallest among all dog breeds.</p>
+                  <p> <strong>Top common <span className='brown'>character traits</span> with the lowest average <span className='green'>longevity</span>:</strong> </p> 
+                  <ul>
+                    <li><strong>Strong</strong> ➤ 2 out of 103 dog breeds - <strong>11</strong> years of <span className='green'>longevity</span></li>
+                    <li><strong>Trainable-athletic</strong> ➤ 2 out of 103 dog breeds - <strong>11</strong> years of <span className='green'>longevity</span></li>
+                    <li><strong>Protective</strong> ➤ 9 out of 103 dog breeds - <strong>10,3</strong> years of <span className='green'>longevity</span></li>
+                    <li><strong>Gentle</strong> ➤ It seems to be the <strong>most common</strong> among these <span className='brown'>character traits</span> (11 out of 103 dog breeds - <strong>9,8</strong> years of <span className='green'>longevity</span>)</li>
+
+                  </ul>
+
+                  <p> <strong><span className='brown'>character traits</span> with the lowest average <span className='green'>longevity</span> (Bottom 3 average <span className='green'>longevity</span> values):</strong></p> 
+                  <ul>
+                    <li><strong>Protective</strong> ➤ <strong>10,3</strong> years of <span className='green'>longevity</span></li>
+                    <li><strong>Gentle</strong> ➤ <strong>9,8</strong> years of <span className='green'>longevity</span></li>
+                    <li><strong>Brave</strong> ➤ <strong>9</strong> years of average <span className='green'>longevity</span></li>
+                  </ul>
+
+                  <p> <strong><span className='brown'>character traits</span> with the highest and lowest average height (regardless of their frequency):</strong></p> 
+                  <ul>
+                    <li>➤ The dog breeds with the <span className='brown'>character traits</span> of <strong>social</strong>, <strong>sensitive</strong>, <strong>curious</strong>, <strong>active</strong> and <strong>brave</strong> are the <strong>shortest</strong> ones.</li>
+                    <li>➤ The dog breeds that are <strong>gentle</strong> and <strong>protective</strong> are the <strong>tallest</strong> among all dog breeds.</li>
+                  </ul>
+
                 </div>
-
-              </div>
+                </div>
             </div>
 
           </div>
@@ -116,11 +144,11 @@ function TableauVisualization() {
               <ul>
                 <li>
                   <p>
-                  All the character traits and health problems(intelligence, playfulness, skin allergies, eye and dental problems etc) that give dog breeds high average longevity, due to the fact that appeared in many dog breeds it could be possible to calculate empirically the average longevity for all breeds.                 </p>           
+                  All the <span className='brown'>character traits</span> and <span className='pink'>health problems</span>(intelligence, playfulness, skin allergies, eye and dental problems etc) that give dog breeds high average <span className='green'>longevity</span>, due to the fact that appeared in many dog breeds it could be possible to calculate empirically the average <span className='green'>longevity</span> for all breeds.                 </p>           
                 </li>
                 <li>
                   <p>
-                  Also it is occurred that the dog breeds that are intelligent, curious, social, sensitive or good-natured for example due to its high average longevity, they know how to live,  even as dog breeds with more activeness, for example energetic , active, playful.                </p>           
+                  Also it is occurred that the dog breeds that are intelligent, curious, social, sensitive or good-natured for example due to its high average <span className='green'>longevity</span>, they know how to live,  even as dog breeds with more activeness, for example energetic , active, playful.                </p>           
                 </li>
               </ul>
             </div>
