@@ -70,3 +70,11 @@
   color: #9d7660;
   font-weight: 600;
 }
+
+.fn{
+  font-weight: 600;
+}
+
+.underline{
+  text-decoration: underline;
+}
