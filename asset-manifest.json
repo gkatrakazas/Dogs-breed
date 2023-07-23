@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dogs_breed/static/css/main.ebd734ea.css",
-    "main.js": "/dogs_breed/static/js/main.4b3430fb.js",
+    "main.css": "/dogs_breed/static/css/main.ce1aa82f.css",
+    "main.js": "/dogs_breed/static/js/main.562d1853.js",
     "static/js/787.70a02f98.chunk.js": "/dogs_breed/static/js/787.70a02f98.chunk.js",
     "static/media/dogs.jpg": "/dogs_breed/static/media/dogs.c8e820fef7627a20b897.jpg",
     "static/media/background_4.jpg": "/dogs_breed/static/media/background_4.40dcc53918f09ddbd282.jpg",
@@ -15,17 +15,17 @@
     "static/media/dogs_logo.png": "/dogs_breed/static/media/dogs_logo.d028ccd71a13a4c5e588.png",
     "static/media/evi.jpg": "/dogs_breed/static/media/evi.e5d5730b5251a4e8e431.jpg",
     "static/media/grigoris.png": "/dogs_breed/static/media/grigoris.1fc2c248e963b322d9f5.png",
-    "static/media/new_dog_breeds_v0.4.csv": "/dogs_breed/static/media/new_dog_breeds_v0.4.e8b74ca001e6e66dcb9c.csv",
-    "static/media/dog_breeds.csv": "/dogs_breed/static/media/dog_breeds.7fe45e1b3117a841ceac.csv",
+    "static/media/new_dog_breeds_v0.4.csv": "/dogs_breed/static/media/new_dog_breeds_v0.4.c4c81faab5a84b15ec4d.csv",
+    "static/media/dog_breeds.csv": "/dogs_breed/static/media/dog_breeds.05f56cb72b0fb45d252c.csv",
     "static/media/challenge.png": "/dogs_breed/static/media/challenge.06aa8ffdd3f183ddfe2a.png",
     "static/media/data.png": "/dogs_breed/static/media/data.ac5712446d953486ec5d.png",
     "index.html": "/dogs_breed/index.html",
-    "main.ebd734ea.css.map": "/dogs_breed/static/css/main.ebd734ea.css.map",
-    "main.4b3430fb.js.map": "/dogs_breed/static/js/main.4b3430fb.js.map",
+    "main.ce1aa82f.css.map": "/dogs_breed/static/css/main.ce1aa82f.css.map",
+    "main.562d1853.js.map": "/dogs_breed/static/js/main.562d1853.js.map",
     "787.70a02f98.chunk.js.map": "/dogs_breed/static/js/787.70a02f98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebd734ea.css",
-    "static/js/main.4b3430fb.js"
+    "static/css/main.ce1aa82f.css",
+    "static/js/main.562d1853.js"
   ]
 }
