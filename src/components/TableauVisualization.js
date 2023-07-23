@@ -43,40 +43,46 @@ function TableauVisualization() {
                 <div className='coll'>
                   <p><strong><span className='blue'>Height</span> and <span className='pink'><span className='pink'>health problems</span></span> seem to affect dogs' <span className='green'><span className='green'>longevity</span></span>.</strong></p> 
                   <p>It seems that taller dog breeds live more years than shorter ones. Additionally, it seems that dog breeds with specific <span className='fn'>health problems</span> seem to have larger <span className='fn'>longevity</span>, while there are some <span className='fn'>health problems</span> that negatively affect dogs' breed <span className='fn'>longevity</span>. In the above chart, we can also see which <span className='fn'>health problems</span> are common among all dog breeds (i.e. the bubble’s size depicts the count of breeds). </p>
-                  <p>On the right column we can see which <span className='fn'>health problems</span> affect dogs’ <span className='fn'>longevity</span> the most as well as which ones affect dogs’ <span className='fn'>longevity</span> the least.</p>
+                  <p>In the adjacent column we can see which <span className='fn'>health problems</span> affect dogs’ <span className='fn'>longevity</span> the most as well as which ones affect dogs’ <span className='fn'>longevity</span> the least.</p>
                 </div>
                 <div className='coll collr'>
-                  <p> <strong>Top common <span className='pink'>health problems</span> with <span className='underline'>high average</span> <span className='green'>longevity</span>:</strong> </p> 
-                  <ul>
-                    <li><span className='pink'>Eye problems</span> (79 out of 103 dog breeds - <strong>12,9</strong> years of <span className='fn'>longevity</span>)</li>
-                    <li><span className='pink'>Dental problems</span> (76 out of 103 dog breeds - <strong>13</strong> years of <span className='fn'>longevity</span>) </li>
-                    <li><span className='pink'>Skin allergies</span> (72 out of 103 dog breeds - <strong>12,7</strong> years of <span className='fn'>longevity</span>)</li>
-                  </ul>
-                  <p>➤ The dog breeds with the above least fatal <span className='fn'>health problems</span> are the <strong>shortest ones</strong>.</p>
 
-                  <p> <strong>Top common <span className='pink'>health problems</span> with <span className='underline'>low average</span> <span className='green'>longevity</span>: </strong> </p> 
+                  <p> <strong>Top common (high frequency) <span className='pink'>health problems</span> with <span className='underline'>high average</span> <span className='green'>longevity</span>:</strong> </p> 
                   <ul>
-                    <li><span className='pink'>Cancer</span> ➤ It seems to be the <strong>most common</strong> among these 3 <span className='fn'>health problems</span> (17 out of 103 dog breeds with <strong>10,8</strong> years of average <span className='fn'>longevity</span>)</li>
-                    <li><span className='pink'>Heart conditions</span> ➤ 9 out of 103 dog breeds with <strong>9,7</strong> years of average <span className='fn'>longevity</span> </li>
-                    <li><span className='pink'>Elbow dysplasia</span> ➤ It seems to be the <strong>most severe</strong> among these 3 <span className='fn'>health problems</span> (<strong>8,8</strong> years of average <span className='fn'>longevity</span>), but it is extremely <strong>rare</strong> among dogs breeds (2 out of 103 dog breeds)</li>
-
+                    <li><span className='pink'>Eye problems</span> ➤ 79 out of 103 dog breeds - <strong>12,9</strong> years of average <span className='fn'>longevity</span></li>
+                    <li><span className='pink'>Dental problems</span> ➤ 76 out of 103 dog breeds - <strong>13</strong> years of average <span className='fn'>longevity</span> </li>
+                    <li><span className='pink'>Skin allergies</span> ➤ 72 out of 103 dog breeds - <strong>12,7</strong> years of average <span className='fn'>longevity</span></li>
                   </ul>
 
-                  <p>➤ The dog breeds with the above most fatal <span className='fn'>health problems</span> are the <strong>tallest</strong> ones.</p>
-                  <p><strong>Additional info</strong></p>
-                  <p><strong>Top 3 <span className='underline'>most severe</span> <span className='pink'>health problems</span> (regardless of their frequency)</strong></p>
+                  <p> <strong>Top common (high frequency) <span className='pink'>health problems</span> with <span className='underline'>low average</span> <span className='green'>longevity</span>: </strong> </p> 
+                  <ul>
+                    <li><span className='pink'>Cancer</span> ➤ It seems to be the <strong>most common</strong> among these 3 <span className='fn'>health problems</span> (17 out of 103 dog breeds - <strong>10,8</strong> years of average <span className='fn'>longevity</span>)</li>
+                    <li><span className='pink'>Heart conditions</span> ➤ 9 out of 103 dog breeds - <strong>9,7</strong> years of average <span className='fn'>longevity</span> </li>
+                    <li><span className='pink'>Elbow dysplasia</span> ➤ It seems to be the <strong>most severe</strong> among these 3 <span className='fn'>health problems</span> (<strong>8,8</strong> years of average <span className='fn'>longevity</span>), but fortunately it is extremely <strong>rare</strong> among dogs breeds (2 out of 103 dog breeds)</li>
+
+                  </ul>
+
+                  <p><strong>Top 3 <span className='pink'>health problems</span> with lowest lifespan (regardless of their frequency):</strong></p>
                   <ul>
                     <li><span className='pink'>Elbow dysplasia</span> ➤ <strong>8,8</strong> years of average <span className='fn'>longevity</span></li>
                     <li><span className='pink'>Heart conditions</span> ➤ <strong>9,7</strong> years of average <span className='fn'>longevity</span></li>
                     <li><span className='pink'>Cancer</span> ➤ <strong>10,8</strong> years of average <span className='fn'>longevity</span></li>
                   </ul>
-                  <p><strong>Top 3 <span className='underline'>least severe</span> health problems (regardless of their frequency)</strong></p>
+
+                  <p><strong><span className='pink'>Health problems</span> grouped by top 3 higher lifespan (regardless of their frequency):</strong></p>
                   <ul>
                     <li><span className='pink'>Bladder stones</span> ➤ <strong>13,8</strong> years of average <span className='fn'>longevity</span></li>
                     <li><span className='pink'>Intervertebral disc disease - Hereditary myopathy - Epilepsy - Diabetes</span> ➤ <strong>13,5</strong> years of average <span className='fn'>longevity</span></li>
                     <li><span className='pink'>Dental problems</span> ➤ <strong>13</strong> years of average <span className='fn'>longevity</span></li>
                   </ul>
+
+                  <p><strong> <span className='blue'>Height</span> and <span className='green'>longevity</span></strong></p>
+                  <p>➤ The dog breeds with the above <strong>most</strong> fatal health problems are <strong>the tallest</strong> ones.</p>
+                  <p>➤ The dog breeds with the above <strong>least</strong> fatal health problems have <strong>low</strong> average height.</p>
+
                 </div>
+
+
 
               </div>
               
