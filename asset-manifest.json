@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dogs_breed/static/css/main.ce1aa82f.css",
-    "main.js": "/dogs_breed/static/js/main.d4f16db3.js",
+    "main.css": "/dogs_breed/static/css/main.37e586cd.css",
+    "main.js": "/dogs_breed/static/js/main.b30326fa.js",
     "static/js/787.70a02f98.chunk.js": "/dogs_breed/static/js/787.70a02f98.chunk.js",
     "static/media/dogs.jpg": "/dogs_breed/static/media/dogs.c8e820fef7627a20b897.jpg",
     "static/media/background_4.jpg": "/dogs_breed/static/media/background_4.40dcc53918f09ddbd282.jpg",
@@ -20,12 +20,12 @@
     "static/media/challenge.png": "/dogs_breed/static/media/challenge.06aa8ffdd3f183ddfe2a.png",
     "static/media/data.png": "/dogs_breed/static/media/data.ac5712446d953486ec5d.png",
     "index.html": "/dogs_breed/index.html",
-    "main.ce1aa82f.css.map": "/dogs_breed/static/css/main.ce1aa82f.css.map",
-    "main.d4f16db3.js.map": "/dogs_breed/static/js/main.d4f16db3.js.map",
+    "main.37e586cd.css.map": "/dogs_breed/static/css/main.37e586cd.css.map",
+    "main.b30326fa.js.map": "/dogs_breed/static/js/main.b30326fa.js.map",
     "787.70a02f98.chunk.js.map": "/dogs_breed/static/js/787.70a02f98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce1aa82f.css",
-    "static/js/main.d4f16db3.js"
+    "static/css/main.37e586cd.css",
+    "static/js/main.b30326fa.js"
   ]
 }
