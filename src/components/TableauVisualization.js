@@ -47,14 +47,14 @@ function TableauVisualization() {
                 </div>
                 <div className='coll collr'>
 
-                  <p> <strong>Top common (high frequency) <span className='pink'>health problems</span> with <span className='underline'>high average</span> <span className='green'>longevity</span>:</strong> </p> 
+                  <h5> <strong>Top common (high frequency) <span className='pink'>health problems</span> with <span className='underline'>high average</span> <span className='green'>longevity</span>:</strong> </h5> 
                   <ul>
                     <li><span className='pink'>Eye problems</span> ➤ 79 out of 103 dog breeds - <strong>12,9</strong> years of average <span className='fn'>longevity</span></li>
                     <li><span className='pink'>Dental problems</span> ➤ 76 out of 103 dog breeds - <strong>13</strong> years of average <span className='fn'>longevity</span> </li>
                     <li><span className='pink'>Skin allergies</span> ➤ 72 out of 103 dog breeds - <strong>12,7</strong> years of average <span className='fn'>longevity</span></li>
                   </ul>
 
-                  <p> <strong>Top common (high frequency) <span className='pink'>health problems</span> with <span className='underline'>low average</span> <span className='green'>longevity</span>: </strong> </p> 
+                  <h5> <strong>Top common (high frequency) <span className='pink'>health problems</span> with <span className='underline'>low average</span> <span className='green'>longevity</span>: </strong> </h5> 
                   <ul>
                     <li><span className='pink'>Cancer</span> ➤ It seems to be the <strong>most common</strong> among these 3 <span className='fn'>health problems</span> (17 out of 103 dog breeds - <strong>10,8</strong> years of average <span className='fn'>longevity</span>)</li>
                     <li><span className='pink'>Heart conditions</span> ➤ 9 out of 103 dog breeds - <strong>9,7</strong> years of average <span className='fn'>longevity</span> </li>
@@ -62,21 +62,21 @@ function TableauVisualization() {
 
                   </ul>
 
-                  <p><strong>Top 3 <span className='pink'>health problems</span> with lowest lifespan (regardless of their frequency):</strong></p>
+                  <h5><strong>Top 3 <span className='pink'>health problems</span> with lowest lifespan (regardless of their frequency):</strong></h5>
                   <ul>
                     <li><span className='pink'>Elbow dysplasia</span> ➤ <strong>8,8</strong> years of average <span className='fn'>longevity</span></li>
                     <li><span className='pink'>Heart conditions</span> ➤ <strong>9,7</strong> years of average <span className='fn'>longevity</span></li>
                     <li><span className='pink'>Cancer</span> ➤ <strong>10,8</strong> years of average <span className='fn'>longevity</span></li>
                   </ul>
 
-                  <p><strong><span className='pink'>Health problems</span> grouped by top 3 higher lifespan (regardless of their frequency):</strong></p>
+                  <h5><strong><span className='pink'>Health problems</span> grouped by top 3 higher lifespan (regardless of their frequency):</strong></h5>
                   <ul>
                     <li><span className='pink'>Bladder stones</span> ➤ <strong>13,8</strong> years of average <span className='fn'>longevity</span></li>
                     <li><span className='pink'>Intervertebral disc disease - Hereditary myopathy - Epilepsy - Diabetes</span> ➤ <strong>13,5</strong> years of average <span className='fn'>longevity</span></li>
                     <li><span className='pink'>Dental problems</span> ➤ <strong>13</strong> years of average <span className='fn'>longevity</span></li>
                   </ul>
 
-                  <p><strong> <span className='blue'>Height</span> and <span className='green'>longevity</span></strong></p>
+                  <h5><strong> <span className='blue'>Height</span> and <span className='green'>longevity</span></strong></h5>
                   <p>➤ The dog breeds with the above <strong>most</strong> fatal health problems are <strong>the tallest</strong> ones.</p>
                   <p>➤ The dog breeds with the above <strong>least</strong> fatal health problems have <strong>low</strong> average height.</p>
 
@@ -98,14 +98,14 @@ function TableauVisualization() {
                 </div>
 
                 <div className='coll collr'>
-                  <p><strong>Top common (high frequency) <span className='brown'>character traits</span> with <span className='underline'>high average</span> <span className='green'>longevity</span>:</strong> </p> 
+                  <h5><strong>Top common (high frequency) <span className='brown'>character traits</span> with <span className='underline'>high average</span> <span className='green'>longevity</span>:</strong> </h5> 
                   <ul>
                     <li><span className='brown'>Intelligent</span> ➤ <strong>95</strong> out of 103 dog breeds - <strong>12,6</strong> years of average <span className='fn'>longevity</span></li>
                     <li><span className='brown'>Good-Natured</span> ➤ <strong>87</strong> out of 103 dog breeds - <strong>12,6</strong> years of average <span className='fn'>longevity</span></li>
                     <li><span className='brown'>Energetic</span> ➤ <strong>81</strong> out of 103 dog breeds - <strong>13</strong> years of average <span className='fn'>longevity</span></li>
                   </ul>
 
-                  <p><strong>Top common (high frequency) <span className='brown'>character traits</span> with the <span className='underline'>lowest average</span> <span className='green'>longevity</span>:</strong> </p> 
+                  <h5><strong>Top common (high frequency) <span className='brown'>character traits</span> with the <span className='underline'>lowest average</span> <span className='green'>longevity</span>:</strong> </h5> 
                   <ul>
                     <li> <span className='brown'>Gentle</span> ➤ It seems to be the <strong>most common</strong> among these character traits because <strong>11</strong> out of 103 dog breeds  - <strong>9,8</strong> years of average <strong>longevity</strong></li>
                     <li> <span className='brown'>Protective</span> ➤ <strong>9</strong> out of 103 dog breeds - <strong>10,3</strong> years of average <strong>longevity</strong></li>
@@ -113,21 +113,21 @@ function TableauVisualization() {
                     <li> <span className='brown'>Trainable-athletic</span> ➤ <strong>2</strong> out of 103 dog breeds - <strong>11</strong> years of average <strong>longevity</strong></li>
                   </ul>
 
-                  <p><strong> <span className='brown'>Character traits</span> grouped by top 3 <span className='underline'>higher</span> lifespan (regardless of the frequency):</strong> </p> 
+                  <h5><strong> <span className='brown'>Character traits</span> grouped by top 3 <span className='underline'>higher</span> lifespan (regardless of the frequency):</strong> </h5> 
                   <ul>
                     <li> <span className='brown'>Social - charming - sensitive - curious- active- hypoallergenic</span> ➤ <strong>13,5</strong> years of average <strong>longevity</strong></li>
                     <li> <span className='brown'>Affectionate</span> ➤ <strong>13,3</strong> years of average <strong>longevity</strong></li>
                     <li> <span className='brown'>Playful</span> ➤ <strong>13,2</strong> years of average <strong>longevity</strong></li>
                   </ul>
 
-                  <p><strong> <span className='brown'>Character traits</span> grouped by top 3 <span className='underline'>lower</span> lifespan (regardless of the frequency):</strong> </p> 
+                  <h5><strong> <span className='brown'>Character traits</span> grouped by top 3 <span className='underline'>lower</span> lifespan (regardless of the frequency):</strong> </h5> 
                   <ul>
                     <li> <span className='brown'>Brave-calm</span> ➤ <strong>9</strong> years of average <strong>longevity</strong></li>
                     <li> <span className='brown'>Gentle</span> ➤ <strong>9,8</strong> years of average <strong>longevity</strong></li>
                     <li> <span className='brown'>Protective</span> ➤ <strong>10,3</strong> years of average <strong>longevity</strong></li>
                   </ul>
 
-                  <p><strong> <span className='blue'>Height</span> and <span className='green'>longevity</span></strong></p>
+                  <h5><strong> <span className='blue'>Height</span> and <span className='green'>longevity</span></strong></h5>
                   <p>➤ The most dog breeds that live a few years are generally <strong>taller</strong>.</p>
                   <p>➤ The most dog breeds that live many years are generally <strong>shorter</strong>.</p>
 
@@ -147,16 +147,17 @@ function TableauVisualization() {
               <br></br>
               <h4 style={{fontWeight:'600'}}>Which combination of <span className='pink'>health problems</span> and <span className='brown'>character traits</span> affect dogs' <span className='green'>longevity</span>? </h4>
               <p >In the above two bar charts,  it is easier to see which <strong> groups of health problems and character traits are the most common among all dog breeds</strong> (i.e. the bar’s size depicts the count of breeds).</p>
-              <p><strong>Most common combination of <span className='pink'>health problems</span> and <span className='brown'>character traits</span></strong></p>              
+              
+              <h5><strong>Most common combination of <span className='pink'>health problems</span> and <span className='brown'>character traits</span></strong></h5>              
               <p >Health problems concerning dogs’ <span className='pink'>teeth</span>, <span className='pink'>skin</span> and <span className='pink'>eyes</span> seem to appear most of the time in dogs, while also most dogs seem to have a nice personality: they are <span className='brown'>intelligent</span>, <span className='brown'>good-natured</span>, <span className='brown'>energetic</span> and <span className='brown'>playful</span>.</p>
 
               <p >➤ Most significantly, the above given characteristics relate to a high <strong>average longevity</strong> that ranges from <strong>12,6</strong> to <strong>13,2</strong> years, so we can infer that most dogs live between <strong>12,6</strong> and <strong>13,2</strong> years.</p>
               <p >➤ It is very interesting the fact that most dog breeds (95 out 103) which also have a high <strong>average longevity</strong> are <span className='brown'>intelligent</span>. A possible reason for that is that they are smart enough to protect themselves and they may know better how to survive.</p>
 
-              <p><strong> <span className='brown'>Character traits</span> and <span className='pink'>health problems</span> grouped based on <span className='underline'>highest</span> <span className='green'>longevity</span></strong></p>
+              <h5><strong> <span className='brown'>Character traits</span> and <span className='pink'>health problems</span> grouped based on <span className='underline'>highest</span> <span className='green'>longevity</span></strong></h5>
               <p >Dog breeds that are <span className='brown'>social, charming, sensitive, curious, active</span> and <span className='brown'>hypoallergenic</span> and also suffering from <span className='pink'>bladder stones, intervertebral disc disease, hereditary myopathy, epilepsy</span> and <span className='pink'>diabetes</span> seem to have the highest <strong>average longevity</strong> that ranges from <strong>13,3</strong> to <strong>13,8</strong> years, but the aforementioned <strong>character traits</strong> and <strong>health problems</strong> are generally <strong>rare</strong> among all dog breeds.</p>
 
-              <p><strong> <span className='brown'>Character traits</span> and <span className='pink'>health problems</span> grouped based on <span className='underline'>lowest</span> <span className='green'>longevity</span></strong></p>
+              <h5><strong> <span className='brown'>Character traits</span> and <span className='pink'>health problems</span> grouped based on <span className='underline'>lowest</span> <span className='green'>longevity</span></strong></h5>
               <p >Dog breeds that suffer from <span className='pink'>elbow dysplasia, heart conditions</span> and <span className='pink'>cancer</span> and they are <span className='brown'>brave, gentle, calm, protective, athletic, patient</span> and <span className='brown'>trainable</span> seem to have the lowest longevity that ranges from <strong>8,7</strong> to <strong>11</strong> years.</p>
 
               <p >➤ A possible reason that <span className='brown'>athletic, trainable</span> and <span className='brown'>protective</span> dog breeds have a very low average longevity is that they may risk their lives or get involved in fights more easily.</p>
